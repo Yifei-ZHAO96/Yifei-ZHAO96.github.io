@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yifei Zhao",
-    "title": "Machine Learning Engineer",
+    "label": "Machine Learning Engineer",
     "image": "",
-    "email": "yifei.zhao@mail.mcgill.ca",
+    "email": "yifei.zhao@mail.mcgill,ca",
     "phone": "",
-    "url": "https://www.linkedin.com/in/zhaoyifei",
-    "summary": "",
+    "url": "https://Yifei-ZHAO96.github.io",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "",
       "postalCode": "",
@@ -51,6 +51,12 @@
     }
   ],
   "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
   ],
   "certificates": [],
   "publications": [],

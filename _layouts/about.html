@@ -11,6 +11,35 @@ layout: default
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
+        <!-- Social -->
+          <!-- {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+
+            </div>
+          {%- endif %} -->
+        
+        <br>
+        <!-- About me -->
+        {% if page.about %}
+        <h2 class="about-header", style="font-family: Sans-serif">About Me</h2>
+        <!-- <ul class="ul-edu fa-ul">
+          <li>
+            <i class="fa-li fas fa-business-time"></i>
+            <div class="description">
+              <p class="course">Machine Learning Engineer, April 2022-Now</p>
+              <p class="institution"><a href="https://www.huawei.com/ca/" target="_blank">Huawei Canada</a>, Toronto, Canada</p>
+            </div>
+          </li>
+        </ul> -->
+        {% endif %}
+
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
@@ -41,21 +70,56 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Professional Experience -->
+          {% if page.professional_experience %}
+          <h2 class="professional_experience-header", style="font-family: Sans-serif">Professional Experience</h2>
+          <ul class="ul-edu fa-ul">
+            <li>
+              <i class="fa-li fas fa-business-time"></i>
+              <div class="description">
+                <p class="course">Machine Learning Engineer, April 2022-Now</p>
+                <p class="institution"><a href="https://www.huawei.com/ca/" target="_blank">Huawei Canada</a>, Toronto, Canada</p>
+              </div>
+            </li>
+          </ul>
+          {% endif %}
+          
+          <!-- Education -->
+          {% if page.education %}
+          <h2 class="education-header", style="font-family: Sans-serif">Education</h2>
+          <ul class="ul-edu fa-ul">
+            <li>
+              <i class="fa-li fa fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">M.Sc. in Electrical and Computer Engineer, 2019-2021</p>
+                <p class="institution"><a href="https://www.mcgill.ca/" target="_blank">McGill University</a>, Montreal, Canada</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">B.S in Electrical Engineering, 2015-2019</p>
+                <p class="institution"><a href="https://www.shu.edu.cn/" target="_blank">Shanghai University</a>, Shanghai, China</p>
+              </div>
+            </li>
+          </ul>
+          {% endif %}
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit; font-family: Sans-serif">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit; font-family: Sans-serif">Latest posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit; font-family: Sans-serif">Selected Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
