@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b><font size=4em, font color="#FF7F50"> Machine Learning Engineer · Huawei Canada </font></b>
+subtitle: <b><font size=4em, font color="#FF7F50"> Machine Learning Reseacher · Huawei Canada </font></b>
 # Machine Learning Engineer @ Huawei Canada
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -20,12 +20,9 @@ social: true  # includes social icons at the bottom of the page
 education: true
 professional_experience: true
 about: true
+skills: true
 ---
 
-This is Yifei's personal website.
+I am presently employed as a machine learning researcher at Huawei Canada, where I have developed numerous data-driven, AI-assisted systems aimed at addressing Huawei's intricate and genuine networking challenges while enhancing network performance.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining Huawei, I was under the guidance of Prof. Benoit Champagne at McGill University, where I successfully completed my M.Sc. degree in Electrical and Computer Engineering. During this time, I harnessed several cutting-edge deep learning techniques and models to enhance audio signal processing workflows.
