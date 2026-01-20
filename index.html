@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yifei Zhao | Software Engineer @ Meta</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Yifei Zhao</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="reveal">
+                    <h1>Software Engineer @ <span style="color: var(--primary)">Meta</span></h1>
+                    <p>Building Next-Gen Systems | M.Eng in ECE, McGill University</p>
+                    <div class="cta-buttons">
+                        <!-- Add buttons later -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="reveal">About Me</h2>
+            <div class="glass reveal" style="padding: 2rem; margin-top: 2rem;">
+                <p>I am a Software Engineer at **Meta**, working on large-scale systems and infrastructure. Previously,
+                    I was a Machine Learning Researcher at **Huawei Technologies Canada**, where I developed
+                    data-driven AI-assisted systems for complex networking challenges.</p>
+                <p style="margin-top: 1rem;">I hold a **Masters of Engineering (M.Eng) in Electrical and Computer
+                    Engineering** from **McGill University**. My expertise lies in the intersection of Machine
+                    Learning, Speech Signal Processing, and High-Performance Systems.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="container">
+            <h2 class="reveal">Experience</h2>
+            <div id="experience-list" style="margin-top: 2rem;">
+                <div class="glass card reveal" style="margin-bottom: 1.5rem;">
+                    <div>
+                        <div class="meta">Present</div>
+                        <h3>Software Engineer @ Meta</h3>
+                        <p>Specializing in infrastructure and systems engineering to support next-generation
+                            technologies.</p>
+                    </div>
+                </div>
+                <div class="glass card reveal">
+                    <div>
+                        <div class="meta">2021 - 2024</div>
+                        <h3>Machine Learning Researcher @ Huawei Canada</h3>
+                        <p>Developed state-of-the-art Transformer-based Voice Activity Detection and AI-assisted
+                            networking solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="container">
+            <h2 class="reveal">Selected Publications</h2>
+            <div id="pub-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div class="glass card reveal">
+                    <div>
+                        <div class="meta">USENIX ATC 2024</div>
+                        <h3>Config-Snob: Tuning for the Best Configurations of Networking Protocol Stack</h3>
+                        <p>A protocol tuning solution utilizing historical data and causal inference to dynamically
+                            select optimal networking configurations.</p>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://www.usenix.org/conference/atc24/presentation/bin-yahya"
+                            class="btn-small">Official Link</a>
+                    </div>
+                </div>
+
+                <div class="glass card reveal">
+                    <div>
+                        <div class="meta">MLSP 2022</div>
+                        <h3>Tr-VAD: An Efficient Transformer-Based Model for Voice Activity Detection</h3>
+                        <p>A novel transformer-based approach for VAD that balances efficiency and performance in
+                            complex environments.</p>
+                    </div>
+                    <div class="card-links">
+                        <a href="#" class="btn-small">PDF</a>
+                        <a href="https://github.com/Yifei-ZHAO96/Tr-VAD" class="btn-small">Code</a>
+                    </div>
+                </div>
+
+                <div class="glass card reveal">
+                    <div>
+                        <div class="meta">ICASSP 2022</div>
+                        <h3>Complex IRM-Aware Training for Voice Activity Detection Using Attention Model</h3>
+                        <p>Leveraging attention mechanisms and complex IRM-aware training to improve robustness in
+                            speech processing.</p>
+                    </div>
+                    <div class="card-links">
+                        <a href="#" class="btn-small">PDF</a>
+                        <a href="#" class="btn-small">Link</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="reveal">Featured Projects</h2>
+            <div id="project-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div class="glass card reveal">
+                    <div>
+                        <div class="meta">PyTorch | Research</div>
+                        <h3>STAM-pytorch</h3>
+                        <p>Implementation of Spatio-Temporal Attention Mechanisms in PyTorch for advanced signal
+                            processing.</p>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/Yifei-ZHAO96/STAM-pytorch" class="btn-small">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2 class="reveal">Get In Touch</h2>
+            <div class="contact-links reveal">
+                <a href="mailto:yifei.zhao@huawei.com" class="contact-item">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com/Yifei-ZHAO96" class="contact-item">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/zhaoyifei/" class="contact-item">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer style="padding: 4rem 0; text-align: center; color: var(--text-muted);">
+        <div class="container">
+            <p>&copy; 2025 Yifei Zhao. Built for high performance and professional impact.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
