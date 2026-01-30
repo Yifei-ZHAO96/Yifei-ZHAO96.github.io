@@ -128,7 +128,7 @@ section {
 .hero p {
     font-size: 1.25rem;
     color: var(--text-muted);
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto 2rem;
 }
 
